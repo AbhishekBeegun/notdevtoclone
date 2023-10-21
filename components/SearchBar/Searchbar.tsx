@@ -9,11 +9,11 @@ const [UserSearch, setUserSearch] = useState<string>();
 
 
   return (
-    <div className='flex items-center bg-slate-100 rounded-lg'>
+    <div className='flex items-center bg-slate-100 rounded-lg w-[500px]'>
     <Input
     onChange={(e) => setUserSearch(e.target.value) }
     value={UserSearch}
-    className='border-0 no-focus bg-slate-200 outline-none'
+    className='border-0 no-focus bg-slate-100 outline-none'
     type='text' placeholder='Search Something' />
     
     <button
