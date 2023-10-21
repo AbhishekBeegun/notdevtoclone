@@ -16,11 +16,9 @@ export default function Home() {
 
       {isSignedIn ? 
       <>
-      <UserButton afterSignOutUrl="/"/>
-      <p>{user.fullName}</p>
+      <UserButton showName/>
       </>
       :
-
       <>
       <SignInBtn/>
       <SignUpBtn/>
