@@ -19,10 +19,10 @@ const LeftSidebarCardList = () => {
 
         <TooltipProvider>
             <Tooltip>
-            <TooltipTrigger asChild className={`${item.premium ? 'flex' : 'hidden'} mb-2 justify-between px-2 hover:cursor-pointer`}> 
+            <TooltipTrigger asChild className={`${item.premium ? 'flex' : 'hidden'} mb-2 justify-between p-2 hover:cursor-pointer`}> 
              <div className='text-green-500'>
               <MdAttachMoney size={15}/>
-              <p className='text-xs font-semibold'>Premium Ads</p>
+              <p className='text-sm font-semibold'>Premium Ads</p>
              </div>
              
              </TooltipTrigger>

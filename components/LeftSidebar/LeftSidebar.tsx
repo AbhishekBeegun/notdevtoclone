@@ -1,6 +1,6 @@
 import React from 'react'
 import LeftSidebarNavlink from './LeftSidebarNavlink'
-import LeftSidebarCardList from './LeftSidebarCardList'
+import LeftSidebarCardAdsList from '../Ads/LeftSidebarCardAdsList'
 import { LeftSidebarCards } from '@/constants/LeftSidebarCards'
 import { Separator } from "@/components/ui/separator"
 import Footer from '../Footer/Footer'
@@ -13,7 +13,7 @@ const LeftSidebar = () => {
     <div className='px-6'>
     <Separator className='mb-6' />
     </div>
-    <LeftSidebarCardList/>
+    <LeftSidebarCardAdsList/>
 
     <div className='px-6'>
     <Separator className='mb-6' />
