@@ -37,9 +37,9 @@ const LeftSidebarCardList = () => {
             <img src={item.imgSrc} className='w-full h-full rounded-lg object-cover hover:scale-[1.02] transition-all ease-in-out' alt='Sponsored Ads Image'/>
         </Link>
 
-        <h3 className={`${item.premium ? 'mb-2' : 'mb-0'} text-xl leading-6 uppercase font-semibold my-2 px-2`}>{item.title}</h3>
+        <h3 className={`${item.premium ? 'mb-2' : 'mb-0'} text-lg leading-6 uppercase font-semibold my-2 px-2 text-gray-600`}>{item.title}</h3>
 
-        <p className={`${item.premium ? 'mb-2' : 'mb-0'} text-xs line-clamp-3 px-2`}>{item.desc}</p>
+        <p className={`${item.premium ? 'mb-2' : 'mb-0'} text-xs line-clamp-2 px-2 text-gray-400`}>{item.desc}</p>
     
     </div>
         ))}
