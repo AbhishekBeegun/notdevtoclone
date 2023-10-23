@@ -254,21 +254,15 @@ const jsonData = {
 } ;
 const page = () => {
   // @ts-ignore
-  console.log(jsonData.content[0])
+  // console.log(jsonData)
+
   return (
     <div>
         Novel Editor below
 
         <Editor />
-        <div>
-      {jsonData.content.map((item, index) => (
-       <div key={index}>
-        <p>{item.type}</p>
-       </div>
-       ))}
-    </div>
   
-        {/* <PostPreview/> */}
+        <PostPreview />
     </div>
   )
 }
